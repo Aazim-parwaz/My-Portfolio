@@ -10,9 +10,10 @@ function Footer(){
             <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
                 <ul className="s-footer__social">
 
-              <li>  <a href="https://codeforces.com/profile/code_parwaz_"><i className="fas fa-code" aria-hidden="true"></i></a></li>
-              <li>  <a href="https://github.com/Aazim-parwaz"><i className="fab fa-github" aria-hidden="true"></i></a></li>
-              <li>  <a href="https://www.linkedin.com/in/aazim-parwaz-342055207/"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
+ eslint-disable-next-line
+ <li>  <a href="https://codeforces.com/profile/code_parwaz_"><i className="fas fa-code" aria-hidden="false"></i></a></li>
+              <li>  <a href="https://github.com/Aazim-parwaz"><i className="fab fa-github" aria-hidden="false"></i></a></li>
+              <li>  <a href="https://www.linkedin.com/in/aazim-parwaz-342055207/"><i className="fab fa-linkedin" aria-hidden="false"></i></a></li>
                 </ul>
             </div>
 
