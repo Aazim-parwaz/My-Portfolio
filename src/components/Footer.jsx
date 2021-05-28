@@ -1,9 +1,47 @@
-import React from "react";
+import React,{useEffect} from "react";
+import {Jump} from "react-jump";
+
 
 
 
 function Footer(){
   const year=new Date().getFullYear();
+
+useEffect(()=>{
+  const triggers = document.querySelectorAll(".smoothscroll");
+
+        triggers.forEach(function(trigger) {
+            trigger.addEventListener("click", function() {
+                const target = trigger.getAttribute("href");
+
+                Jump(target, {
+                    duration: 1200,
+                });
+            });
+        });
+
+        const pxShow = 900;
+      const goTopButton = document.querySelector(".ss-go-top");
+
+      if (!goTopButton) return;
+
+      // Show or hide the button
+      if (window.scrollY >= pxShow) goTopButton.classList.add("link-is-visible");
+
+      window.addEventListener('scroll', function() {
+          if (window.scrollY >= pxShow) {
+              if(!goTopButton.classList.contains('link-is-visible')) goTopButton.classList.add("link-is-visible")
+          } else {
+              goTopButton.classList.remove("link-is-visible")
+          }
+      });
+
+},[]);
+
+
+
+
+
   return (
     <footer className="s-footer">
         <div className="row">
