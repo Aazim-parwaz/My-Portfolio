@@ -12,7 +12,7 @@ function EducationBlock(props){
                 <span className="resume-block__header-date">
                     {props.dateRange}
               </span>
-            <span>  <p className="resume-block__header-date">CGPA: {props.cgpa}</p></span>
+            <span>  <p className="resume-block__header-date">CGPA: {props.cgpa}/10</p></span>
 
             </p>
 
