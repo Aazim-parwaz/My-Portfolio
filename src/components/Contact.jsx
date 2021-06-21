@@ -40,7 +40,7 @@ function Contact(){
                                 Phone
                             </h5>
                             <p className="contact-block__content">
-                                <a href="tel:+918899520217">(+91)8899520217</a>
+                                <a href="#contact">+91***********</a>
                             </p>
                         </div>
                     </div>

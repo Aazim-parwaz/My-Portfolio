@@ -29,7 +29,7 @@ function About(){
                         Mattan, Anantnag,192125 <br/>
                         Jammu & Kashmir <br/>
                         India <span id="indian-flag">🇮🇳</span><br/>
-                        <a href="tel:+916005696500">(+91)6005696500</a> <br/>
+                      <a href="#contact">+91**********</a> <br/>
                         <a href="mailto:codeparwaz@gmail.com">codeparwaz@gmail.com</a>
                         </p>
 
