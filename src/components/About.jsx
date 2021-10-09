@@ -14,8 +14,8 @@ function About(){
             <div className="column large-9 tab-12 s-about__content">
                 <h3>About Me</h3>
                 <p>
-                I am Aazim Parwaz. A 2nd Year Computer Science and Engineering Student in National Institute Of Technology, Srinagar.
-                I am a budding web developer who loves to design and create elegant cum efficient web Apps. I do full Stack-development with major in Front-end development.
+                I am Aazim Parwaz. A Pre-final Year Computer Science and Engineering Student in National Institute Of Technology, Srinagar.
+                I am a budding software developer who is passionate to work on emerging technologies.
                 I am also a competitive programmer in love with Data Structures and Algorithms.
                 </p>
 
