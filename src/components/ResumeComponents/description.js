@@ -28,7 +28,7 @@ education:[
 institute:"National Institute Of Technology, Srinagar",
 degree:"Bachelor of Technology in Computer Science and Engineering",
 dateRange:"2019-present",
-cgpa:8.45
+cgpa:8.52
 }
 ]
 }
