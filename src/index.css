@@ -9,18 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #022c43;
-  overflow: hidden;/*  
-  overflowen content will be clipped and made invisible.
-  Other values: hidden,scroll,visible,auto(similar to scroll but adds scroll when necessary)
-  */
+  overflow: hidden;/
   display: block;
-  /*
-1) defines the type of rendering box of an element.
-  display:inline; like <span>, inline element , any height and width properties have no effect
-  display:none;  the element is completely removed
-  display:inline-block; like inline, but can apply height and width
-  display: block; like <p>, block element, starts on new line and takes whole width
-  */
+  
 }
 
 .dashboard {

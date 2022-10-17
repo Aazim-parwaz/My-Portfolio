@@ -1,9 +1,9 @@
-$primary-color: #ffd700;//Sass: primary-color is a variable given value=#ffd700 which can be reused now instead of value
+$primary-color: #ffd700;
 
-@import 'animate.css';//@import allows to import a style sheet into another style sheet
+@import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
-@font-face {//instructs browser to download the font from where the source is..
+@font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
   font-weight: normal;

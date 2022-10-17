@@ -1,6 +1,4 @@
-/*
-1) refer https://www.w3schools.com/react/react_router.asp for router and layout components.
-*/
+
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/'
 import './index.scss'
