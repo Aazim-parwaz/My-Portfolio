@@ -6,8 +6,8 @@ import App from './App'
 import './index.css'
 
 ReactDOM.render(
-  <React.StrictMode>                 //tool for highlighting potential problems in App.
-    <BrowserRouter>                  //provides ability to use routes in App
+  <React.StrictMode>                 
+    <BrowserRouter>                  
       <App />
     </BrowserRouter>
     ,

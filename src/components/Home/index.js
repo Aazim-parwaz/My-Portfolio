@@ -38,7 +38,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
+              alt="Software Developer, Aazim"
             />
             <AnimatedLetters
               letterClass={letterClass}
