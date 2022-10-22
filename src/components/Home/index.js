@@ -10,14 +10,12 @@ const Home = () => {
 
   const nameArray = ['a', 'z', 'i', 'm']
   const jobArray = [
-    's',
-    't',
-    'u',
-    'd',
-    'e',
-    'n',
-    't',
-    '.',
+    'P',
+    'a',
+    'r',
+    'w',
+    'a',
+    'z'
   ]
 
   useEffect(() => {
